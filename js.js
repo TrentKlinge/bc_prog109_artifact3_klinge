@@ -16,7 +16,7 @@ for (i=1;i<=pHeight;i++){
 rLine +="<p>";
   
 //fill in left side of every row with sapces
-for (x=1; x<=pHight;x++{
+for (x=1; x<=pHight;x++){
   rLine += " ";
 }
 
