@@ -44,7 +44,7 @@ document.getElementById("upLeft").innerHTML = rLine;
 
 function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
 var rLine ="";
-for (i=pHeight;i > 1;i--){
+for (i=pHeight;i > 0;i--){
 rLine +="<p>";
   
 //fill in left side of every row with sapces
