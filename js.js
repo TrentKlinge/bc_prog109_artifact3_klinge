@@ -13,7 +13,8 @@ downRight(pHeight, pColorEven, pColorOdd, pSymbol);
 function upLeft(pHeight, pColorEven, pColorOdd, pSymbol){
 var rLine ="";
 for (i=1;i<=pHeight;i++){
-rLine +="<p>";
+//rLine +="<p>";
+  rLine +="<span class='space'>" + pSymbol +"</span>";
   
 //fill in left side of every row with sapces
 for (x=1; x<=pHeight-i;x++){
