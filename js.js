@@ -16,12 +16,12 @@ for (i=1;i<=pHeight;i++){
 rLine +="<p>";
   
 //fill in left side of every row with sapces
-for (x=1; x<=pHight;x++){
+for (x=1; x<=pHeight;x++){
   rLine += " ";
 }
 
 //Create each line on the Rhombus
-for(j=x;j<=pHight;j++){
+for(j=x;j<=pHeight;j++){
 
 //Is the position even or odd so we change the color
 if (j%2)
