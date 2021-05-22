@@ -17,7 +17,7 @@ rLine +="<p>";
   
 //fill in left side of every row with sapces
 for (x=1; x<=pHeight;x++){
-  rLine += " ";
+  rLine += "-";
 }
 
 //Create each line on the Rhombus
