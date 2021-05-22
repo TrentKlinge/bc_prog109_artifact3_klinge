@@ -12,7 +12,7 @@ downRight(pHeight, pColorEven, pColorOdd, pSymbol);
 
 function upLeft(pHeight, pColorEven, pColorOdd, pSymbol){
 var rLine ="";
-for (i=1;i<=pHeight;i++){
+for (i=1;i<=pHeight-i;i++){
 rLine +="<p>";
   
 //fill in left side of every row with sapces
